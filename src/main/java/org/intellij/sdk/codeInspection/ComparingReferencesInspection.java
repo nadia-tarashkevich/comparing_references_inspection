@@ -75,10 +75,11 @@ public class ComparingReferencesInspection extends AbstractBaseJavaLocalInspecti
        * It reuses a string from the inspections bundle.
        */
       @NonNls
-      private final String DESCRIPTION_TEMPLATE =
+      /*private final String DESCRIPTION_TEMPLATE =
               ".\nVery long string of 3 lines. It is very very long description.\n".
       concat("Very long string of 3 lines. It is very very long description.\n").
-      concat("Very long string of 3 lines. It is very very long description.");
+      concat("Very long string of 3 lines. It is very very long description.");*/
+      private final String DESCRIPTION_TEMPLATE = "Foo\nBar";
 
       /**
        * Avoid defining visitors for both Reference and Binary expressions.
